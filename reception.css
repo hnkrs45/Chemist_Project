@@ -24,6 +24,7 @@
 .brand-right {
   display: flex;
   flex-direction: column;
+  flex: 1;
   //line-height: 1.2;
 }
 
@@ -51,4 +52,21 @@
   .brand-name::after {
     width: 44px;
   }
+}
+
+.intro{
+  margin: 200px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.intro h1{
+  font-size: 50px;
+
+}
+
+.intro p{
+  font-size: 25px;
 }
