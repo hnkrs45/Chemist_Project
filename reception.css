@@ -63,10 +63,66 @@
 }
 
 .intro h1{
-  font-size: 50px;
-
+  font-size: 90px;
 }
 
 .intro p{
   font-size: 25px;
+  text-align: justify;
+}
+
+.information{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-evenly;
+  height: 40px;
+}
+
+.Invoice{
+  display: flex;
+}
+.Invoice button, .Report Button, .Order button{
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: 140px;
+  border-width: 1px;
+  font-family: cursive;
+  transition: background-color 0.7s ease, color 0.7s ease, border-radius 0.7s ease;
+}
+.Invoice button:hover, .Report Button:hover, .Order button:hover{
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  width: 200px;
+  height: 100px;
+  border-width: 1px;
+  border-color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Report{
+  display: flex;
+}
+
+.Order{
+  display: flex;
+}
+
+p{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.foot{
+  margin-top: 200px;;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.socials{
+  justify-content: space-evenly;
 }
