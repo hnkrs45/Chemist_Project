@@ -56,6 +56,7 @@
 
 .intro{
   margin: 200px;
+  font-family: cursive;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -112,6 +113,7 @@
 
 p{
   font-size: 30px;
+  font-family: cursive;
   text-align: center;
   margin-bottom: 100px;
 }
@@ -123,6 +125,6 @@ p{
   justify-content: space-evenly;
 }
 
-.socials{
-  justify-content: space-evenly;
+.socials img{
+  height: 40px;
 }
