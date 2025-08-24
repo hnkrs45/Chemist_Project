@@ -59,7 +59,7 @@
   width: 150px;
   height: 40px;
   border-radius: 20px;
-  transition: 0.3s;
+  transition: 0.6s;
 }
 .buttons button:hover{
   background-color: black;
@@ -70,9 +70,15 @@
   transform: scale(0.9);
 }
 
-footer{
+hr{
   margin-top: 100px;
+  border: 0.5px solid gray;
+}
+footer{
+  margin-top: 10px;
   justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
 }
 .contact{
   display: flex;
@@ -115,4 +121,8 @@ footer{
 .social-media img{
   height: 40px;
   transition: 0.3s;
+}
+.social-media img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
 }
