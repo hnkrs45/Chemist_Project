@@ -3,50 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Chemists</title>
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="reception.css">
 </head>
 <body>
-    <link rel="stylesheet" href="reception.css">
-    <header class="brand-header">
-    <div class="container">
-        <div class="brand-left">
-        <img src="images/logo.jpg" alt="Brand Logo" class="brand-logo" />
+    <header>
+        <div class="brandintro">
+            <img src="images/logo.jpg" alt="Brand Logo">
+            <div class="brandidentity">
+                <p>Modern Chemists</p><br>
+                <strong id="tagline">Your trusted partner in Affordable medicines.</strong>
+            </div>
         </div>
-        <div class="brand-right">
-        <h1 class="brand-name">Modern Chemists</h1>
-        <p class="brand-tagline">Genuine Medicine for All</p>
-        </div>
-    </div>
     </header>
 
-    <div class="intro">
-        <h1>Welcome to Modern Chemists</h1>
-        <p>Here you will get every medicine at a reasonable rate</p>
-    </div>
-    <p>Select one of the below options</p>
-    
-    <div class="information">
-        <div class="Invoice"><button>Invoice</button></div>
-        <div class="Report"><button>Sales Report</button></div>
-        <div class="Order"><button>Order</button></div>
-    </div>
-
-    <footer class="foot">
-        <div class="address">
-            <p style="font-size: 30px;">This Software is developed at: </p>
-            <p style="font-size: 20px;">CDAC Noida, Gautam Buddha Nagar</p>
+    <main>
+        <div class="welcome">
+            <h1>Welcome to Modern Chemists</h1>
+            <p>Your health is our priority. We offer a wide range of affordable medicines and health products.</p>
         </div>
-        <div class="socials">
-            <p>Follow me on my Socials</p>
-            <a href="https://www.instagram.com/hnkrs45" target="_blank">
-                <img src="images/instalogo.jpeg" alt="Instahandle">
-            </a>
-            <a href="https://www.linkedin.com/in/hnkrs45/" target="_blank">
-                <img src="images/linkedinlogo.svg" alt="LinkedIn Handle">
-            </a>
-            <a href="https://x.com/hnkrs45" target="_blank">
-                <img src="images/xlogo.svg" alt="X handle">
-            </a>
+
+        <div class="options">
+            <h2>Click on any of the options to perform the action</h2>
+            <div class="buttons">
+                <button>Order Medicines</button>
+                <button>View Sales Report</button>
+                <button>View Inventory</button>
+                <button>Order History</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Modern Chemists. All rights reserved.</p><br>
+        <div class="contact">
+            <div class="form">
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit" id="send-message">Send Message</button>
+                </form>
+            </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.in/hnkrs45">
+                    <img src="images/linkedinlogo.svg" alt="LinkedIn">
+                </a>
+                <a href="https://www.x.com/hnkrs45">
+                    <img src="images/xlogo.svg" alt="X">
+                </a>
+                <a href="https://www.instagram.com/hnkrs45">
+                    <img src="images/instalogo.jpeg" alt="Instagram">
+                </a>
+            </div>
         </div>
     </footer>
 </body>
