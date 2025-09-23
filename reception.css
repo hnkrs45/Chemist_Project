@@ -1,7 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .brandintro{
   height: 100px;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 0;
 }
 .brandintro img{
   height: 170px;
@@ -23,7 +30,7 @@
 
 .welcome{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 100px;
 }
 .welcome h1{
